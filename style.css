@@ -1,7 +1,4 @@
 /* General Styling */
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -36,6 +33,10 @@ nav{
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+}
+
+#desktop-nav{
+    background-color: #d0d8d0;
 }
 
 a {
@@ -156,7 +157,7 @@ section {
 }
 
 #profile .profile-pic{
-    border-radius: 250px;
+    border-radius: 100px;
 }
 
 .section_pic-container{
@@ -278,7 +279,7 @@ section {
 .details-container{
     padding: 1.5rem;
     flex: 1;
-    background: #DBE0DB;
+    background: #d0d8d0;
     border-radius: 2rem;
     border: #353535 0.1rem solid;
     border-color: #a3a3a3;
@@ -341,7 +342,7 @@ article .icon{
 
 .colour-container{
     border-color: #a3a3a3;
-    background: #DBE0DB;
+    background: #d0d8d0;
 }
 
 .project-img{
@@ -358,6 +359,7 @@ article .icon{
 .project-btn{
     color: #000;
     border-color: #a3a3a3;
+    background-color: #DBE0DB;
 }
 
 /* Contact */
